@@ -18,10 +18,10 @@
     <nav>
       <ul>
         <li>
-          <div class="container">
-            <a class="element 1" href="#hebergement" title="Hébergements">Hébergements</a>
-            <a class="element 2" href="#activite" title="Activités">Activités</a>
-            <a class="element 3" href="#" title="S'inscrire">S'incrire</a>
+          <div class="menu">
+            <a class="menu-item 1" href="#hebergement" title="Hébergements">Hébergements</a>
+            <a class="menu-item 2 " href="#activite" title="Activités">Activités</a>
+            <a class="menu-item 3" href="#" title="S'inscrire">S'incrire</a>
           </div> 
         </li>
       </ul> 
@@ -36,8 +36,8 @@
   <div class="header-recherche">
     <div class="header-recherche-situation"><i class="fas fa-map-marker-alt"></i></div>
       <input class="header-recherche-saisie" type="search" id="site-search" name="q" placeholder="Marseille, France">  
-    <div class="header-recherche-btn1">Rechercher</div>
-      <i class="header-recherche-btn2 fas fa-search"></i>
+    <div class="header-recherche-btn-large-device">Rechercher</div>
+      <i class="header-recherche-btn-small-device fas fa-search"></i>
   </div>
 
 <!-- filtres -->
@@ -68,14 +68,14 @@
   <div class="information-icon"><i class="fas fa-info"></i><p>Plus de 500 logements sont disponibles dans cette ville</p></div>
 </div>                   
 </header>
-
+<main>
 <!-- Hebergement Populaire -->
 <div class="container-hebergement-populaire">
 
 <!-- Hebergement -->
-  <div class="container-hebergement">
+<div class="container-hebergement"  id="hebergement">
     <div class="container-hebergement-titre">
-    <p><strong>Hébergement à Marseille</strong></p> 
+      <p><strong>Hébergement à Marseille</strong></p> 
     </div>
       <div class="container-hebergement-hotel">
         <div class="hebergement-hotel">
@@ -175,10 +175,10 @@
                   </div>
               </div>
           <div class="hebergement-txt-afficher">
-          <p><strong>Afficher plus</strong></p>
+          <p><strong>Afficher plus</strong></p>  
           </div>
-      </div>  
-  </div> 
+  </div>
+</div>
 
 <!-- Populaire -->
 <div class="container-populaire">
@@ -227,62 +227,60 @@
                               <i class="fas fa-star "></i>
                               <i class="fas fa-star etoile-gray"></i>
                             </div>
-                        </div>
-                      </div> 
-        </div>
-  </div>  
+                      </div>
+                  </div> 
+                </div>
+</div>
 
 <!-- Activites -->
-<div class="container-activite">
+<aside class="container-activites">
   <div class="container-activite-titre"><strong>Activités à Marseille</strong></div>
     <div class="container-activite-lieux">
       <div class="activite-lieux-1"> 
-        <img class="activite-lieux-img1" src="./images/activites/vieuxport.jpg" alt="Vieux Port">
+        <img class="activite-lieux-img1 activite-lieux-img-width" src="./images/activites/vieuxport.jpg" alt="Vieux Port">
         <p><strong class="activite-lieux-txt">Vieux Port</strong></p>
       </div>
       <div class="activite-lieux-2"> 
-        <img class="activite-lieux-img2" src="./images/activites/promegues.jpg" alt="promegues"> 
+        <img class="activite-lieux-img2 activite-lieux-img-width" src="./images/activites/promegues.jpg" alt="promegues"> 
         <p><strong class="activite-lieux-txt">Fort de Pomègues</strong></p>
       </div>
       <div class="activite-lieux-3"> 
-        <img class="activite-lieux-img3" src="./images/activites/frioul.jpg" alt="Frioul">
+        <img class="activite-lieux-img3 activite-lieux-img-width" src="./images/activites/frioul.jpg" alt="Frioul">
         <p><strong class="activite-lieux-txt">Iles du Frioul</strong></p> 
       </div>
       <div class="activite-lieux-4"> 
-        <img class="activite-lieux-img4" src="./images/activites/calanques.jpg" alt="Les Calanques">
+        <img class="activite-lieux-img4 activite-lieux-img-width" src="./images/activites/calanques.jpg" alt="Les Calanques">
         <p><strong class="activite-lieux-txt">Parc National des Calanques</strong></p>
        </div>
       <div class="activite-lieux-5"> 
-        <img class="activite-lieux-img5" src="./images/activites/garde.jpg" alt="ND de la Garde">
+        <img class="activite-lieux-img5 activite-lieux-img-width" src="./images/activites/garde.jpg" alt="ND de la Garde">
         <p><strong class="activite-lieux-txt">Notre-Dame-de-la-Garde</strong></p>
        </div>
       <div class="activite-lieux-6"> 
-        <img class="activite-lieux-img6" src="./images/activites/longchamp.jpg" alt="Longchamp"> 
+        <img class="activite-lieux-img6 activite-lieux-img-width" src="./images/activites/longchamp.jpg" alt="Longchamp"> 
         <p><strong class="activite-lieux-txt">Parc Longchamp</strong></p>
       </div>
     </div>
-</div>
+</aside>
+</main>
 
 <!-- Footer -->
-<footer>
-  <div class="colonne">
-    <div class="colonne-titre1">
-      <h3 class="colonne-titre">A propos</h3>
-      <a class="colonne-ligne">Fonctionnement du site</a><br>
-      <a class="colonne-ligne">Conditions générales de vente</a><br>
-      <a class="colonne-ligne">Données et confidentialités</a>
+<footer class="footer-colonne">
+    <div class="footer-colonne-propos">
+      <h3 class="footer-colonne-titre">A propos</h3>
+      <p class="footer-colonne-ligne">Fonctionnement du site</p>
+      <p class="footer-colonne-ligne">Conditions générales de vente</p>
+      <p class="footer-colonne-ligne">Données et confidentialités</p>
     </div>
-    <div class="colonne-titre2">
-      <h3 class="colonne-titre">Nos hebergements</h3>
-      <a class="colonne-ligne">Charte qualite</a><br>
-      <a class="colonne-ligne">Soumettre votre hôtel</a><br>
+    <div class="footer-colonne-hebergement">
+      <h3 class="footer-colonne-titre">Nos hebergements</h3>
+      <p class="footer-colonne-ligne">Charte qualite</p>
+      <p class="footer-colonne-ligne">Soumettre votre hôtel</p>
     </div>
-    <div class="colonne-titre3">
-      <h3 class="colonne-titre">Assistance</h3>
-      <a class="colonne-ligne">Centre d'aide</a><br>
-      <a class="colonne-ligne">Nous contacter</a>
-    </div>
-  </div>  
+    <div class="footer-colonne-assistance">
+      <h3 class="footer-colonne-titre">Assistance</h3>
+      <p class="footer-colonne-ligne">Centre d'aide</p>
+      <p class="footer-colonne-ligne">Nous contacter</p>
+    </div> 
 </footer>
 </div>
-<div class="margefin"></div>
