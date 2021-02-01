@@ -220,9 +220,11 @@ nav a:hover {
   border-radius: 10px;
   box-shadow: 1px 1px 12px #555;
 }
-.hebergement-hotel:hover {
-  cursor: pointer;
-  clip-path: ellipse(206px 185px at 10% 20%);
+@media all and (min-width: 968px) {
+  .hebergement-hotel:hover {
+    cursor: pointer;
+    clip-path: ellipse(206px 185px at 10% 20%);
+  }
 }
 img.imgh {
   height: 100px;
@@ -299,9 +301,11 @@ img.imgp {
 .etoile-gray {
   color: #deebff;
 }
-.container-populaire-hotel:hover {
-  cursor: pointer;
-  clip-path: ellipse(380px 160px at 10% 20%);
+@media all and (min-width: 968px) {
+  .container-populaire-hotel:hover {
+    cursor: pointer;
+    clip-path: ellipse(380px 160px at 10% 20%);
+  }
 }
 .hebergement-txt-afficher {
   font-family: Raleway;
@@ -408,15 +412,19 @@ img.imgp {
   padding-left: 10px;
   padding-top: 10px;
 }
-.activite-lieux-1:hover,
-.activite-lieux-4:hover {
-  cursor: pointer;
-  clip-path: ellipse(250px 455px at 20% 10%);
+@media all and (min-width: 968px) {
+  .activite-lieux-1:hover,
+  .activite-lieux-4:hover {
+    cursor: pointer;
+    clip-path: ellipse(250px 455px at 20% 10%);
+  }
 }
-.activite-lieux-2:hover,
-.activite-lieux-6:hover {
-  cursor: pointer;
-  clip-path: ellipse(250px 215px at 20% 10%);
+@media all and (min-width: 968px) {
+  .activite-lieux-2:hover,
+  .activite-lieux-6:hover {
+    cursor: pointer;
+    clip-path: ellipse(250px 215px at 20% 10%);
+  }
 }
 .activite-lieux-3:hover,
 .activite-lieux-5:hover:hover {
@@ -441,7 +449,7 @@ img.imgp {
   font-size: 20px;
 }
 /* CSS Partie responsive Tablette */
-@media all and (max-width: 768px) {
+@media all and (min-width: 425px) and (max-width: 768px) {
   .bloc_page {
     width: 1150px;
     margin: auto;
@@ -485,7 +493,8 @@ img.imgp {
   }
   .hebergement-hotel:hover {
     cursor: pointer;
-    clip-path: ellipse(206px 185px at 10% 20%);
+    background-color: #deebff;
+    text-decoration: none;
   }
   img.imgh {
     height: 100px;
@@ -565,7 +574,8 @@ img.imgp {
   }
   .container-populaire-hotel:hover {
     cursor: pointer;
-    clip-path: ellipse(380px 160px at 10% 20%);
+    background-color: #deebff;
+    text-decoration: none;
   }
   .hebergement-txt-afficher {
     font-family: Raleway;
@@ -675,17 +685,20 @@ img.imgp {
   .activite-lieux-1:hover,
   .activite-lieux-4:hover {
     cursor: pointer;
-    clip-path: ellipse(250px 455px at 20% 10%);
+    background-color: #deebff;
+    text-decoration: none;
   }
   .activite-lieux-2:hover,
   .activite-lieux-6:hover {
     cursor: pointer;
-    clip-path: ellipse(250px 215px at 20% 10%);
+    background-color: #deebff;
+    text-decoration: none;
   }
   .activite-lieux-3:hover,
   .activite-lieux-5:hover:hover {
     cursor: pointer;
-    clip-path: ellipse(250px 180px at 20% 10%);
+    background-color: #deebff;
+    text-decoration: none;
   }
 
   /* Footer */
@@ -859,7 +872,8 @@ img.imgp {
   }
   .hebergement-hotel:hover {
     cursor: pointer;
-    clip-path: ellipse(616px 850px at 20% 10%);
+    background-color: #deebff;
+    text-decoration: none;
   }
 
   /* Populaire */
@@ -920,7 +934,8 @@ img.imgp {
   }
   .container-populaire-hotel:hover {
     cursor: pointer;
-    clip-path: ellipse(850px 616px at 10% 20%);
+    background-color: #deebff;
+    text-decoration: none;
   }
   /* Activite */
   .container-activite {
@@ -1017,17 +1032,20 @@ img.imgp {
   .itema1:hover,
   .itema2:hover {
     cursor: pointer;
-    clip-path: ellipse(616px 850px at 20% 10%);
+    background-color: #deebff;
+    text-decoration: none;
   }
   .itema3:hover,
   .itema4:hover {
     cursor: pointer;
-    clip-path: ellipse(616px 850px at 20% 10%);
+    background-color: #deebff;
+    text-decoration: none;
   }
   .itema5:hover,
   .itema6:hover {
     cursor: pointer;
-    clip-path: ellipse(616px 850px at 20% 10%);
+    background-color: #deebff;
+    text-decoration: none;
   }
 
   /* Footer */
