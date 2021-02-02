@@ -221,7 +221,7 @@ nav a:hover {
   border-radius: 10px;
   box-shadow: 1px 1px 12px #555;
 }
-@media all and (min-width: 940px) and (max-width: 2000px) {
+@media screen and (min-width: 940px) and (max-width: 2000px) {
   .hebergement-hotel:hover {
     cursor: pointer;
     clip-path: circle(40%);
@@ -302,7 +302,7 @@ img.imgp {
 .etoile-gray {
   color: #deebff;
 }
-@media all and (min-width: 940px) and (max-width: 2000px) {
+@media screen and (min-width: 940px) and (max-width: 2000px) {
   .container-populaire-hotel:hover {
     cursor: pointer;
     clip-path: circle(40%);
@@ -413,23 +413,23 @@ img.imgp {
   padding-left: 10px;
   padding-top: 10px;
 }
-@media all and (min-width: 940px) and (max-width: 2000px) {
+@media screen and (min-width: 940px) and (max-width: 2000px) {
   .activite-lieux-1:hover,
   .activite-lieux-4:hover {
     cursor: pointer;
     clip-path: circle(40%);
   }
 }
-@media all and (min-width: 940px) and (max-width: 2000px) {
+@media screen and (min-width: 940px) and (max-width: 2000px) {
   .activite-lieux-2:hover,
   .activite-lieux-6:hover {
     cursor: pointer;
     clip-path: circle(40%);
   }
 }
-@media all and (min-width: 940px) and (max-width: 2000px) {
+@media screen and (min-width: 940px) and (max-width: 2000px) {
   .activite-lieux-3:hover,
-  .activite-lieux-5:hover:hover {
+  .activite-lieux-5:hover {
     cursor: pointer;
     clip-path: circle(40%);
   }
