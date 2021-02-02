@@ -224,7 +224,7 @@ nav a:hover {
 @media all and (min-width: 940px) and (max-width: 2000px) {
   .hebergement-hotel:hover {
     cursor: pointer;
-    clip-path: ellipse(206px 185px at 10% 20%);
+    clip-path: circle(40%);
   }
 }
 img.imgh {
@@ -305,7 +305,7 @@ img.imgp {
 @media all and (min-width: 940px) and (max-width: 2000px) {
   .container-populaire-hotel:hover {
     cursor: pointer;
-    clip-path: ellipse(380px 160px at 10% 20%);
+    clip-path: circle(40%);
   }
 }
 .hebergement-txt-afficher {
@@ -417,21 +417,21 @@ img.imgp {
   .activite-lieux-1:hover,
   .activite-lieux-4:hover {
     cursor: pointer;
-    clip-path: ellipse(250px 455px at 20% 10%);
+    clip-path: circle(40%);
   }
 }
 @media all and (min-width: 940px) and (max-width: 2000px) {
   .activite-lieux-2:hover,
   .activite-lieux-6:hover {
     cursor: pointer;
-    clip-path: ellipse(250px 215px at 20% 10%);
+    clip-path: circle(40%);
   }
 }
 @media all and (min-width: 940px) and (max-width: 2000px) {
   .activite-lieux-3:hover,
   .activite-lieux-5:hover:hover {
     cursor: pointer;
-    clip-path: ellipse(250px 180px at 20% 10%);
+    clip-path: circle(40%);
   }
 }
 /* Footer */
