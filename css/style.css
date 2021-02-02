@@ -224,7 +224,8 @@ nav a:hover {
 @media screen and (min-width: 1024px) {
   .hebergement-hotel:hover {
     cursor: pointer;
-    clip-path: circle(40%);
+    opacity: 0.3;
+    text-decoration: none;
   }
 }
 img.imgh {
@@ -305,7 +306,8 @@ img.imgp {
 @media screen and (min-width: 1024px) {
   .container-populaire-hotel:hover {
     cursor: pointer;
-    clip-path: circle(40%);
+    opacity: 0.3;
+    text-decoration: none;
   }
 }
 .hebergement-txt-afficher {
@@ -417,21 +419,24 @@ img.imgp {
   .activite-lieux-1:hover,
   .activite-lieux-4:hover {
     cursor: pointer;
-    clip-path: circle(40%);
+    opacity: 0.3;
+    text-decoration: none;
   }
 }
 @media screen and (min-width: 1024px) {
   .activite-lieux-2:hover,
   .activite-lieux-6:hover {
     cursor: pointer;
-    clip-path: circle(40%);
+    opacity: 0.3;
+    text-decoration: none;
   }
 }
 @media screen and (min-width: 1024px) {
   .activite-lieux-3:hover,
   .activite-lieux-5:hover {
     cursor: pointer;
-    clip-path: circle(40%);
+    opacity: 0.3;
+    text-decoration: none;
   }
 }
 /* Footer */
