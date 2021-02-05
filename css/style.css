@@ -35,13 +35,15 @@ nav a {
   margin-right: 40px;
   margin-bottom: 100px;
 }
-.menu-item_1 {
-  border-top: 3px solid;
-}
 .menu-item_2 {
   color: black;
 }
 .menu-item_2:hover {
+  color: #0065fc;
+  border-top: 3px solid;
+}
+
+.menu-item_1:hover {
   color: #0065fc;
   border-top: 3px solid;
 }
@@ -792,12 +794,13 @@ img.imgp {
     color: #0065fc;
     text-decoration: none;
   }
-  .menu-item_2:hover {
+  .menu-item_1:hover {
     color: #0065fc;
     border-top: none;
     border-bottom: 3px solid;
   }
-  .menu-item_1 {
+  .menu-item_2:hover {
+    color: #0065fc;
     border-top: none;
     border-bottom: 3px solid;
   }
