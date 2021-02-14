@@ -1310,16 +1310,18 @@ img.imgp {
 
 /* Footer */
 .footer-colonne {
+  margin-top: 3%;
   height: auto;
   display: flex;
   flex-direction: row;
+  justify-content: left;
   background-color: #f2f2f2;
 }
 .footer-colonne-titre,
 .footer-colonne-ligne {
   font-family: Raleway;
   margin-left: 15px;
-  margin-right: 40px;
+  margin-right: 150px;
   font-size: 20px;
 }
 @media all and (min-width: 600px) and (max-width: 1220px) {
