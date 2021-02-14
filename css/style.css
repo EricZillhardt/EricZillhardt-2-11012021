@@ -1310,19 +1310,37 @@ img.imgp {
 
 /* Footer */
 .footer-colonne {
-  margin-top: 3%;
   height: auto;
   display: flex;
   flex-direction: row;
-  justify-content: left;
   background-color: #f2f2f2;
 }
 .footer-colonne-titre,
 .footer-colonne-ligne {
   font-family: Raleway;
   margin-left: 15px;
-  margin-right: 150px;
+  margin-right: 40px;
   font-size: 20px;
+}
+@media all and (min-width: 600px) and (max-width: 1220px) {
+  /* Footer */
+  .footer-colonne {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    height: 200px;
+    background-color: #f2f2f2;
+  }
+  .footer-colonne-titre {
+    font-family: Raleway;
+    font-size: 15px;
+    line-height: 60px;
+  }
+  .footer-colonne-ligne {
+    line-height: 10px;
+    font-family: Raleway;
+    font-size: 15px;
+  }
 }
 
 @media all and (max-width: 600px) {
