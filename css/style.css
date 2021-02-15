@@ -161,7 +161,7 @@ img.logo {
   }
 }
 /* Barre de navigation */
-@media all and (min-width: 600px) and (max-width: 1220px) {
+@media all and (min-width: 600px) and (max-width: 1224px) {
   .logo_menu {
     display: flex;
     flex-direction: row;
@@ -392,7 +392,7 @@ img.logo {
 .filtres-container-icon p {
   margin: auto;
 }
-@media all and (min-width: 600px) and (max-width: 1220px) {
+@media all and (min-width: 600px) and (max-width: 1224px) {
   /* Filtres */
   .filtres {
     display: flex;
@@ -570,7 +570,7 @@ img.logo {
 }
 
 /* Information */
-@media all and (min-width: 600px) and (max-width: 1220px) {
+@media all and (min-width: 600px) and (max-width: 1224px) {
   .information-icon {
     display: flex;
     font-family: Raleway;
@@ -614,6 +614,7 @@ img.logo {
   font-size: 30px;
 }
 .container-hebergement {
+  margin: left;
   font-family: Raleway;
   font-size: 15px;
   margin-top: 40px;
@@ -667,6 +668,7 @@ img.imgh {
 
 /* Populaire */
 .container-populaire {
+  margin: left;
   font-family: Raleway;
   font-size: 15px;
   margin-top: 40px;
@@ -734,13 +736,14 @@ img.imgp {
   font-size: 30px;
 }
 
-@media all and (min-width: 600px) and (max-width: 1220px) {
+@media all and (min-width: 600px) and (max-width: 1224px) {
   /* Herbergement Populaire */
   .container-hebergement-populaire {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "container-populaire container-hebergement";
+    margin: left;
     width: 800px;
   }
   /* Herbergement */
@@ -752,6 +755,7 @@ img.imgp {
     font-size: 20px;
   }
   .container-hebergement {
+    margin: left;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     font-family: Raleway;
@@ -1100,7 +1104,7 @@ img.imgp {
   opacity: 0.3;
   text-decoration: none;
 }
-@media all and (min-width: 600px) and (max-width: 1220px) {
+@media all and (min-width: 600px) and (max-width: 1224px) {
   /* Activite */
   .container-activite-lieux {
     display: flex;
@@ -1322,25 +1326,23 @@ img.imgp {
   font-family: Raleway;
   margin-left: 15px;
   margin-right: 150px;
-  font-size: 20px;
+  font-size: 15px;
 }
-@media all and (min-width: 600px) and (max-width: 1220px) {
-  /* Footer */
+@media all and (min-width: 600px) and (max-width: 1224px) {
   .footer-colonne {
+    margin-top: 3%;
+    height: auto;
+    width: 700px;
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
-    height: 200px;
+    justify-content: left;
     background-color: #f2f2f2;
   }
-  .footer-colonne-titre {
-    font-family: Raleway;
-    font-size: 15px;
-    line-height: 60px;
-  }
+  .footer-colonne-titre,
   .footer-colonne-ligne {
-    line-height: 10px;
     font-family: Raleway;
+    margin-left: 10px;
+    margin-right: 60px;
     font-size: 15px;
   }
 }
