@@ -1,12 +1,14 @@
-/*formatage de la page*/
-.bloc_page {
-  width: 1200px;
-  margin: auto;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
-@media all and (max-width: 600px) {
+/*formatage de la page*/
+@media all and (min-width: 1024px) {
   .bloc_page {
-    width: 350px;
-    margin: auto;
+    width: 1200px;
+    margin: 0 auto;
+    padding: auto;
   }
 }
 /* Logo Reservia*/
@@ -136,9 +138,6 @@ img.logo {
     text-decoration: none;
   }
   .menu-item_2:hover {
-    padding-right: 20px;
-    padding-left: 30px;
-    margin-left: -6px;
     padding-bottom: 15px;
     border-bottom: 3px solid;
     border-top: transparent;
@@ -194,9 +193,6 @@ img.logo {
     text-decoration: none;
   }
   .menu-item_2:hover {
-    padding-right: 20px;
-    padding-left: 30px;
-    margin-left: -6px;
     padding-bottom: 15px;
     border-bottom: 3px solid;
     border-top: transparent;
@@ -315,11 +311,11 @@ img.logo {
   }
   .header-recherche-saisie {
     text-align: center;
-    height: 50px;
+    height: 53px;
     font-family: Raleway;
     border: 2px solid #f2f2f2;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
   }
   .header-recherche-btn-small {
     display: block;
@@ -550,7 +546,7 @@ img.logo {
     padding-right: 7px;
     margin-left: 20px;
     margin-right: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
   }
   .information-icon i {
     line-height: 25px;
@@ -582,7 +578,7 @@ img.logo {
     padding-left: 55px;
     padding-right: 14px;
     margin-right: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 70px;
   }
   .information-icon i {
     line-height: 50px;
@@ -744,7 +740,7 @@ img.imgp {
     grid-template-rows: 1fr;
     grid-template-areas: "container-populaire container-hebergement";
     margin: left;
-    width: 800px;
+    width: 100%;
   }
   /* Herbergement */
   .container-hebergement-titre {
@@ -762,8 +758,9 @@ img.imgp {
     font-size: 20px;
     margin-top: 20px;
     border-radius: 5px;
-    width: 700px;
-    background-color: #ffffff;
+    width: 100%;
+    margin: 0px;
+    background-color: #f2f2f2;
   }
   .hebergement-hotel {
     margin-right: 12px;
@@ -802,8 +799,9 @@ img.imgp {
   .container-populaire {
     font-family: Raleway;
     font-size: 20px;
-    margin-top: 25px;
-    width: auto;
+    margin-top: 50px;
+    width: 100%;
+    margin: 0px;
     margin-left: -15px;
     border-radius: 5px;
     grid-area: container-populaire;
@@ -867,7 +865,6 @@ img.imgp {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "container-populaire container-hebergement";
-    width: 200px;
   }
   /* Herbergement */
   .container-hebergement-titre {
@@ -884,7 +881,8 @@ img.imgp {
     font-size: 20px;
     margin-top: 20px;
     border-radius: 5px;
-    width: 200px;
+    width: 75%;
+    margin: 0px;
     background-color: #ffffff;
   }
   .hebergement-hotel {
@@ -925,7 +923,8 @@ img.imgp {
     font-family: Raleway;
     font-size: 20px;
     margin-top: 25px;
-    width: auto;
+    width: 75%;
+    margin: 0px;
     margin-left: -15px;
     border-radius: 5px;
     grid-area: container-populaire;
@@ -989,6 +988,7 @@ img.imgp {
   border-radius: 10px;
   grid-area: activite;
   font-family: Raleway;
+  width: 75%;
   font-size: 15px;
 }
 .container-activite-titre {
@@ -1110,9 +1110,11 @@ img.imgp {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 800px;
+    background-color: #f2f2f2;
     margin-top: 20px;
     margin-left: 10px;
+    width: 100%;
+    margin: 0px;
   }
   .activite-lieux-1 {
     height: 200px;
@@ -1203,7 +1205,8 @@ img.imgp {
     grid-area: activite;
     font-family: Raleway;
     font-size: 20px;
-    width: 200px;
+    width: 75%;
+    margin: 0px;
   }
   .container-activite-titre {
     font-size: 20px;
@@ -1330,9 +1333,9 @@ img.imgp {
 }
 @media all and (min-width: 600px) and (max-width: 1224px) {
   .footer-colonne {
-    margin-top: 3%;
-    height: auto;
-    width: 670px;
+    margin-top: 5%;
+    height: 200px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -1353,21 +1356,21 @@ img.imgp {
     display: block;
     flex-direction: column;
     margin-top: 100px;
-    width: 400px;
-    height: 300px;
+    width: 95%;
+    height: 350px;
     margin-left: -20px;
     background-color: #f2f2f2;
   }
   .footer-colonne-titre {
     font-family: Raleway;
     margin-left: 30px;
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 40px;
   }
   .footer-colonne-ligne {
     line-height: 3px;
     font-family: Raleway;
-    font-size: 15px;
+    font-size: 12px;
     margin-left: 30px;
   }
 }
