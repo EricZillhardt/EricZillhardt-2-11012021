@@ -12,59 +12,55 @@ body {
 img.logo {
   position: relative;
   height: 42px;
-}
-
-/* Barre de navigation */
-.logo_menu {
-  position: relative;
   top: 20px;
-  left: 20px;
+  left: 10px;
+}
+/* Barre de navigation */
+nav.menu_nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "menu-item_1  menu-item_2";
+  height: 50px;
+  margin-top: 50px;
+  color: #f2f2f2;
+  border-bottom: 3px solid;
+  padding-bottom: 10px;
 }
 .menu-item_1 {
-  position: relative;
-  top: 50px;
-  left: 20px;
+  color: #0065fc;
+  text-align: center;
   font-family: Raleway;
   font-size: 20px;
   font-weight: bold;
-  color: #0065fc;
   text-decoration: none;
 }
 .menu-item_2 {
-  position: relative;
-  top: 50px;
-  left: 60px;
-  font-family: Raleway;
-  font-size: 20px;
-  font-weight: bold;
   color: black;
-  text-decoration: none;
-}
-.inscrire {
-  position: relative;
-  top: -60px;
-  left: 250px;
+  text-align: center;
   font-family: Raleway;
   font-size: 20px;
   font-weight: bold;
-  color: #0065fc;
   text-decoration: none;
 }
-.ligne_menu {
+.menu-item_3 {
+  color: #0065fc;
   position: relative;
-  width: 375px;
+  top: -125px;
+  left: 260px;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: bold;
+}
+.menu-item_1:hover {
+  color: #0065fc;
   border-bottom: 3px solid;
-  color: #f2f2f2;
+  padding-bottom: 35px;
 }
 .menu-item_2:hover {
   color: #0065fc;
   border-bottom: 3px solid;
-  padding-bottom: 40px;
-}
-.menu-item_1:hover {
-  color: #0065fc;
-  padding-bottom: 40px;
-  border-bottom: 3px solid;
+  padding-bottom: 35px;
 }
 .menu-item_3:visited {
   text-decoration: none;
@@ -73,7 +69,6 @@ img.logo {
 .menu-item_3:link {
   text-decoration: none;
 }
-
 /* Titre et sous-titre */
 .header-titre h1 {
   display: block;
@@ -212,6 +207,7 @@ img.logo {
   border-radius: 100%;
 }
 .information-icon p {
+  font-weight: bold;
   margin-left: 5px;
   width: 300px;
 }
@@ -226,10 +222,11 @@ img.logo {
 /* Herbergement */
 .container-hebergement-titre {
   margin-left: 35px;
-  padding-top: 15px;
+  padding-top: 20px;
   font-size: 20px;
 }
 .hebergement-txt-afficher {
+  margin-left: 35px;
   font-size: 20px;
 }
 .container-hebergement {
@@ -237,7 +234,6 @@ img.logo {
   grid-row: 2 / 3;
   font-family: Raleway;
   font-size: 20px;
-  margin-top: 20px;
   border-radius: 5px;
   background-color: #ffffff;
 }
@@ -263,6 +259,9 @@ img.imgh {
   padding-left: 15px;
   line-height: 10px;
   padding-bottom: 5px;
+}
+.hebergement-hotel-etoile {
+  color: #0065fc;
 }
 .hebergement-hotel:hover {
   cursor: pointer;
@@ -295,7 +294,7 @@ img.imgh {
   margin-bottom: 50px;
   margin-right: 25px;
   padding: 5px;
-  height: 213px;
+  height: 150px;
   width: 325px;
   background-color: #ffffff;
   border-radius: 25px 25px 25px 25px;
@@ -303,7 +302,7 @@ img.imgh {
 }
 img.imgp {
   float: left;
-  height: 200px;
+  height: 140px;
   width: 130px;
   padding: 5px;
   border-radius: 25px 0 0 25px;
@@ -315,10 +314,10 @@ img.imgp {
   margin-left: 5px;
 }
 .populaire-hotel-etoile1 {
-  line-height: 55px;
+  line-height: 110px;
 }
 .populaire-hotel-etoile2 {
-  line-height: 40px;
+  line-height: 80px;
 }
 .populaire-hotel-etoile,
 .populaire-hotel-etoile1,
@@ -347,7 +346,7 @@ img.imgp {
   font-family: Raleway;
   font-size: 20px;
   margin-top: 50px;
-  margin-left: 45px;
+  margin-left: 35px;
 }
 .container-activite-lieux {
   margin-left: 20px;
@@ -453,9 +452,10 @@ img.imgp {
 .footer-colonne {
   display: block;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 80px;
+  padding-top: 20px;
   width: 100%;
-  height: 350px;
+  height: 370px;
   background-color: #f2f2f2;
 }
 .footer-colonne-titre {
