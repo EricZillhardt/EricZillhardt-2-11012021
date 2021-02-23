@@ -101,6 +101,7 @@ nav.menu_nav {
   padding: 15px;
   width: 18px;
   border-radius: 10px 0 0 10px;
+  border-radius: 15px 0 0 15px;
 }
 .header-recherche-saisie {
   text-align: center;
