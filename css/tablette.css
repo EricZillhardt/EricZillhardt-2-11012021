@@ -193,21 +193,6 @@ nav.menu_nav {
   margin-right: 20px;
   margin-bottom: 10px;
 }
-.information-icon i {
-  line-height: 50px;
-  color: #0065fc;
-  position: absolute;
-  text-align: center;
-  width: 50px;
-  background: #deebff;
-  left: -2px;
-  top: 15px;
-  border-radius: 100%;
-}
-.information-icon p {
-  margin-left: 10px;
-}
-
 .information-icon {
   display: flex;
   font-family: Raleway;
@@ -228,7 +213,7 @@ nav.menu_nav {
   position: absolute;
   text-align: center;
   width: 25px;
-  background: #deebff;
+  border: 2px #f2f2f2 solid;
   left: -2px;
   top: 15px;
   border-radius: 100%;
