@@ -242,9 +242,9 @@ img.logo {
 /* Herbergement Populaire */
 .container-hebergement-populaire {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "container-populaire container-hebergement";
+  grid-template-areas: "container-populaire";
 }
 
 /* Herbergement */
@@ -258,18 +258,16 @@ img.logo {
   font-size: 20px;
 }
 .container-hebergement {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
   font-family: Raleway;
   font-size: 20px;
   border-radius: 5px;
   background-color: #ffffff;
 }
 .hebergement-hotel {
-  margin: auto;
   margin-top: 50px;
+  margin-left: 50px;
   padding: 5px;
-  height: 213px;
+  height: 206px;
   width: 525px;
   background-color: #ffffff;
   border-radius: 25px 25px 25px 25px;
@@ -277,7 +275,8 @@ img.logo {
 }
 img.imgh {
   height: 110px;
-  width: 510px;
+  bottom: 50px;
+  width: 515px;
   padding: 5px;
   border-radius: 25px 25px 0 0;
   object-fit: cover;
@@ -306,20 +305,20 @@ img.imgh {
 .container-populaire {
   font-family: Raleway;
   font-size: 30px;
-  width: 626px;
+  margin-left: 25px;
   border-radius: 5px;
   grid-area: container-populaire;
   background-color: #f2f2f2;
 }
 .container-populaire-icon {
-  margin-left: 115px;
+  margin-left: 220px;
   font-size: 20px;
 }
 .container-populaire-hotel {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
-  margin-left: 40px;
+  margin-left: 30px;
   margin-bottom: 50px;
   margin-right: 25px;
   padding: 5px;
