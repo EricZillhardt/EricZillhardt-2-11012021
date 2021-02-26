@@ -3,18 +3,21 @@ body {
   margin: 0;
   padding: 0;
 }
+/*formatage de la page*/
 .bloc_page {
   width: 375px;
   margin: 0 auto;
   padding: auto;
 }
+
 /* Logo Reservia*/
 img.logo {
   position: relative;
   height: 42px;
   top: 20px;
-  left: 10px;
+  left: 15px;
 }
+
 /* Barre de navigation */
 nav.menu_nav {
   display: grid;
@@ -69,6 +72,7 @@ nav.menu_nav {
 .menu-item_3:link {
   text-decoration: none;
 }
+
 /* Titre et sous-titre */
 .header-titre h1 {
   display: block;
@@ -124,6 +128,7 @@ nav.menu_nav {
 .header-recherche-btn-large {
   display: none;
 }
+
 /* Filtres */
 .filtres {
   font-family: Raleway;
@@ -133,7 +138,7 @@ nav.menu_nav {
   position: relative;
   font-size: 20px;
   top: 20px;
-  left: 35px;
+  left: 20px;
   padding-top: inherit;
   padding-right: 10px;
 }
@@ -190,11 +195,11 @@ nav.menu_nav {
   left: -2px;
   border-radius: 100%;
 }
-
 .filtres-container-icon p {
   margin: auto;
 }
 
+/* Information */
 .information-icon {
   display: flex;
   font-family: Raleway;
@@ -216,7 +221,7 @@ nav.menu_nav {
   text-align: center;
   width: 25px;
   border: 2px #f2f2f2 solid;
-  left: -2px;
+  left: 1px;
   top: 15px;
   border-radius: 100%;
 }
@@ -237,14 +242,15 @@ nav.menu_nav {
   grid-template-rows: 1fr;
   grid-template-areas: "container-populaire container-hebergement";
 }
+
 /* Herbergement */
 .container-hebergement-titre {
-  margin-left: 35px;
+  margin-left: 20px;
   padding-top: 20px;
   font-size: 20px;
 }
 .hebergement-txt-afficher {
-  margin-left: 35px;
+  margin-left: 20px;
   font-size: 20px;
 }
 .container-hebergement {
@@ -286,9 +292,10 @@ img.imgh {
   background-color: #deebff;
   text-decoration: none;
 }
+
 /* Populaire */
 .container-populaire-titre {
-  margin-left: 15px;
+  margin-left: 20px;
   height: 20px;
   font-size: 20px;
 }
@@ -350,6 +357,7 @@ img.imgp {
   background-color: #deebff;
   text-decoration: none;
 }
+
 /* Activite */
 .container-activite {
   margin-top: 20px;
@@ -364,7 +372,7 @@ img.imgp {
   font-family: Raleway;
   font-size: 20px;
   margin-top: 50px;
-  margin-left: 35px;
+  margin-left: 20px;
 }
 .container-activite-lieux {
   margin-left: 20px;
@@ -466,6 +474,7 @@ img.imgp {
   background-color: #deebff;
   text-decoration: none;
 }
+
 /* Footer */
 .footer-colonne {
   display: block;
