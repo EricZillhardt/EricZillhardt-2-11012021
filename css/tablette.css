@@ -1,5 +1,6 @@
 html,
 body {
+  font-family: "Raleway", "Sans serif";
   margin: 0;
   padding: 0;
 }
@@ -395,7 +396,7 @@ img.imgp {
   height: 206px;
   width: 285px;
   background-color: #ffffff;
-  border-radius: 12px 12px 12px 12px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 0 0 20px #0000002e;
 }
 .activite-lieux-2 {
@@ -404,7 +405,7 @@ img.imgp {
   height: 206px;
   width: 285px;
   background-color: #ffffff;
-  border-radius: 12px 12px 12px 12px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 0 0 20px #0000002e;
 }
 .activite-lieux-3 {
@@ -414,7 +415,7 @@ img.imgp {
   width: 285px;
   margin-top: 0px;
   background-color: #ffffff;
-  border-radius: 12px 12px 12px 12px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 0 0 20px #0000002e;
 }
 .activite-lieux-4 {
@@ -423,7 +424,7 @@ img.imgp {
   height: 206px;
   width: 285px;
   background-color: #ffffff;
-  border-radius: 12px 12px 12px 12px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 0 0 20px #0000002e;
 }
 .activite-lieux-5 {
@@ -432,7 +433,7 @@ img.imgp {
   height: 206px;
   width: 285px;
   background-color: #ffffff;
-  border-radius: 12px 12px 12px 12px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 0 0 20px #0000002e;
 }
 .activite-lieux-6 {
@@ -441,7 +442,7 @@ img.imgp {
   height: 206px;
   width: 285px;
   background-color: #ffffff;
-  border-radius: 12px 12px 12px 12px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 0 0 20px #0000002e;
 }
 .activite-lieux-img1,
@@ -450,13 +451,13 @@ img.imgp {
 .activite-lieux-img4,
 .activite-lieux-img5,
 .activite-lieux-img6 {
-  height: 120px;
+  height: 130px;
   object-fit: cover;
 }
 .activite-lieux-img-width {
-  width: 265px;
-  padding: 10px;
-  border-radius: 25px 25px 0 0;
+  width: 285px;
+
+  border-radius: 20px 20px 0 0;
 }
 .activite-lieux-txt {
   font-family: "Raleway", sans-serif;
