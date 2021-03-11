@@ -110,19 +110,20 @@ img.logo {
   text-align: left;
   padding-left: 15px;
   height: 55px;
+  width: 200px;
   font-family: "Raleway", sans-serif;
   border: 2px solid #f2f2f2;
-  font-weight: 400;
+}
+input::placeholder {
+  font-size: 18px;
   color: black;
-  font-size: 17px;
+  font-weight: bold;
 }
 .header-recherche-btn-large {
   display: block;
   text-align: center;
   font-size: 17px;
   font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  font-size: 17px;
   padding: 15px 0px 8px 0;
   background: #0065fc;
   color: #ffffff;

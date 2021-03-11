@@ -116,6 +116,10 @@ img.logo {
   font-weight: bold;
   font-size: 17px;
 }
+input::placeholder {
+  color: black;
+  font-weight: bold;
+}
 .header-recherche-btn-small {
   display: block;
   background: #0065fc;
