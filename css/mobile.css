@@ -191,7 +191,7 @@ nav.menu_nav {
 }
 .filtres2 {
   position: relative;
-  left: -120px;
+  left: -145px;
   width: 80px;
 }
 .filtres3 {
@@ -283,7 +283,7 @@ nav.menu_nav {
   background-color: #ffffff;
 }
 .hebergement-hotel {
-  margin: auto;
+  margin-left: 12px;
   margin-top: 50px;
   padding: 5px;
   height: 213px;
@@ -517,6 +517,7 @@ img.imgp {
   font-family: "Raleway", sans-serif;
   margin-left: 30px;
   font-size: 20px;
+  font-weight: bold;
   line-height: 40px;
 }
 .footer-colonne-ligne {
