@@ -66,7 +66,7 @@ img.logo {
   left: 800px;
   top: -13px;
   font-family: "Raleway";
-  font-weight: 300;
+  font-weight: 400;
   font-size: 17px;
   color: #0065fc;
   text-decoration: none;
@@ -76,7 +76,7 @@ img.logo {
   left: 860px;
   top: -13px;
   font-family: "Raleway";
-  font-weight: 300;
+  font-weight: 400;
   font-size: 17px;
   color: black;
   text-decoration: none;
@@ -87,7 +87,7 @@ img.logo {
   top: -35px;
   font-family: "Raleway";
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 600;
   color: #0065fc;
   text-decoration: none;
 }
@@ -278,12 +278,10 @@ input::placeholder {
 }
 
 /* Hebergement */
-}
-.container-hebergement-titre, .h2 {
+.container-hebergement-titre {
   font-family: "Raleway", sans-serif;
-  font-size: 10px;
-  font-weight: small;
-  margin-top: 35px;
+  font-size: 17px;
+  margin-top: 20px;
 }
 .container-hebergement {
   margin-top: 40px;
