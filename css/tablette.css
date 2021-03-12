@@ -1,6 +1,45 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 100;
+  src: url(../fonts/Raleway-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 200;
+  src: url(../fonts/Raleway-Light.ttf);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 300;
+  src: url(../fonts/Raleway-Medium.ttf);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 400;
+  src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 500;
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 600;
+  src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 700;
+  src: url(../fonts/Raleway-Black.ttf);
+}
 html,
 body {
-  font-family: "Raleway", "Sans serif";
+  font-family: "Raleway", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -28,8 +67,8 @@ img.logo {
   left: 60px;
   top: 50px;
   font-family: "Raleway", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 25px;
+  font-weight: 300;
   color: #0065fc;
   text-decoration: none;
 }
@@ -39,7 +78,7 @@ img.logo {
   top: 50px;
   font-family: "Raleway", sans-serif;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 300;
   color: black;
   text-decoration: none;
 }
@@ -49,7 +88,7 @@ img.logo {
   top: 20px;
   font-family: "Raleway", sans-serif;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 600;
   color: #0065fc;
   text-decoration: none;
 }
@@ -80,14 +119,15 @@ img.logo {
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-size: 40px;
+  font-weight: 600;
 }
 .header-titre p {
   display: block;
   font-family: "Raleway", sans-serif;
   font-size: 25px;
+  font-weight: 200;
   width: 600px;
   margin-left: 10px;
-  font-weight: bold;
   text-align: center;
 }
 
@@ -109,16 +149,17 @@ img.logo {
   border-radius: 15px 0 0 15px;
 }
 .header-recherche-saisie {
-  text-align: center;
-  height: 53px;
-  font-family: "Raleway", sans-serif;
+  text-align: left;
+  padding-left: 15px;
+  height: 55px;
+  width: 250px;
   border: 2px solid #f2f2f2;
-  font-weight: bold;
-  font-size: 17px;
 }
 input::placeholder {
+  font-family: "Raleway", sans-serif;
+  font-size: 19px;
   color: black;
-  font-weight: bold;
+  font-weight: 600;
 }
 .header-recherche-btn-small {
   display: block;
@@ -138,7 +179,7 @@ input::placeholder {
 .filtres-container-icon {
   font-family: "Raleway", sans-serif;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .filtres {
@@ -154,6 +195,9 @@ input::placeholder {
 }
 
 .filtres-titre {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
   margin-top: 60px;
   margin-left: 20px;
   margin-bottom: 20px;
@@ -199,9 +243,8 @@ input::placeholder {
 .information-icon {
   display: flex;
   font-family: "Raleway", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 300;
   height: 50px;
   position: relative;
   padding-left: 55px;
@@ -211,31 +254,27 @@ input::placeholder {
 }
 .information-icon {
   display: flex;
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
-  margin-top: 25px;
-  height: 25px;
+  margin-top: 10px;
+  height: 35px;
   position: relative;
-  top: 20px;
   padding-left: 30px;
   padding-right: 7px;
-  margin-left: 20px;
+  margin-left: 50px;
   margin-right: 10px;
   margin-bottom: 80px;
 }
 .information-icon i {
-  line-height: 25px;
+  line-height: 45px;
   color: #0065fc;
   position: absolute;
   text-align: center;
-  width: 25px;
+  width: 45px;
   border: 2px #f2f2f2 solid;
-  left: -2px;
-  top: 15px;
+  left: -30px;
+  top: 10px;
   border-radius: 100%;
 }
 .information-icon p {
-  font-weight: bold;
   margin-left: 5px;
   width: 600px;
 }
@@ -254,17 +293,19 @@ input::placeholder {
 
 /* Herbergement */
 .container-hebergement-titre {
-  margin-left: 35px;
-  padding-top: 20px;
-  font-size: 20px;
-}
-.hebergement-txt-afficher {
-  margin-left: 35px;
-  font-size: 20px;
-}
-.container-hebergement {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
+  font-weight: 300;
+  margin-left: 35px;
+  padding-top: 20px;
+}
+.hebergement-txt-afficher {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 35px;
+}
+.container-hebergement {
   border-radius: 25px;
   background-color: #ffffff;
 }
@@ -287,7 +328,9 @@ img.imgh {
   object-fit: cover;
 }
 .hebergement-hotel-txt {
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
+  font-weight: 300;
   padding-left: 15px;
   line-height: 5px;
   padding-bottom: 5px;
@@ -303,13 +346,13 @@ img.imgh {
 
 /* Populaire */
 .container-populaire-titre {
-  margin-left: 35px;
-  height: 20px;
-  font-size: 30px;
-}
-.container-populaire {
   font-family: "Raleway", sans-serif;
   font-size: 30px;
+  font-weight: 300;
+  margin-left: 35px;
+  height: 20px;
+}
+.container-populaire {
   margin-left: 25px;
   border-radius: 25px;
   grid-area: container-populaire;
@@ -342,7 +385,9 @@ img.imgp {
   object-fit: cover;
 }
 .populaire-hotel-txt {
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
+  font-weight: 300;
   text-align: left;
   margin-left: 5px;
 }
@@ -378,10 +423,12 @@ img.imgp {
   grid-area: activite;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
+  font-weight: 300;
 }
 .container-activite-titre {
   font-family: "Raleway", sans-serif;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 300;
   margin-top: 50px;
   margin-left: 35px;
 }
@@ -465,7 +512,8 @@ img.imgp {
 }
 .activite-lieux-txt {
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 600;
   padding-left: 10px;
 }
 .activite-lieux-1:hover,
@@ -499,13 +547,15 @@ img.imgp {
 }
 .footer-colonne-titre {
   font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
   margin-left: 30px;
-  font-size: 30px;
   line-height: 40px;
 }
 .footer-colonne-ligne {
   line-height: 15px;
   font-family: "Raleway", sans-serif;
+  font-weight: 300;
   font-size: 20px;
   margin-left: 30px;
 }
